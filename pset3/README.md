@@ -1,2 +1,2 @@
-# cs50x problem set 3
+# CS50x pset 3
 Algorithms
