@@ -73,15 +73,16 @@ cs50x-Aqsi/
 ├── pset9/
 ├── cs50-project/
 └── README.md
+```
 
 
-## Final Project — Campus Hub
+## 🚀 Final Project — Campus Hub
 
 Campus Hub is a student portal developed as my CS50x final project.
 
 It is designed to bring essential academic tools together in one place and help students organize their university life.
 
-Features
+### Features
 📊 Student dashboard
 📚 Subjects management
 📝 Notes
