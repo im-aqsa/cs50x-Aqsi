@@ -1,6 +1,27 @@
 # CS50x — Introduction to Computer Science
 
-My solutions, notes, and final project from **Harvard University's CS50x: Introduction to Computer Science**.
+
+
+![Language](https://img.shields.io/badge/Language-C%20%7C%20Python%20%7C%20SQL%20%7C%20HTML%2FCSS%2FJS-blue)
+
+
+
+
+![Course](https://img.shields.io/badge/Course-CS50x-red)
+
+
+
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+
+
+
+![Platform](https://img.shields.io/badge/Platform-edX-003263)
+
+
+
+> My solutions, notes, and final project from **Harvard University's CS50x: Introduction to Computer Science**.
 
 This repository documents my journey through CS50x, from programming fundamentals in C to Python, SQL, web development, Flask, and my final project.
 
@@ -75,26 +96,27 @@ cs50x-Aqsi/
 └── README.md
 ```
 
+---
 
 ## 🚀 Final Project — Campus Hub
 
-Campus Hub is a student portal developed as my CS50x final project.
-
-It is designed to bring essential academic tools together in one place and help students organize their university life.
+**Campus Hub** is a student portal developed as my CS50x final project, designed to bring essential academic tools together in one place and help students organize their university life.
 
 ### Features
-📊 Student dashboard
-📚 Subjects management
-📝 Notes
-📋 Assignments
-🕐 Timetable
-📈 Attendance tracking
-🔐 User registration and login
-🗄️ SQLite database
-🎨 Responsive web interface
-Built With
 
-Python • Flask • SQLite • HTML • CSS • JavaScript
+- 📊 Student dashboard
+- 📚 Subjects management
+- 📝 Notes
+- 📋 Assignments
+- 🕐 Timetable
+- 📈 Attendance tracking
+- 🔐 User registration and login
+- 🗄️ SQLite database
+- 🎨 Responsive web interface
+
+**Built with:** Python • Flask • SQLite • HTML • CSS • JavaScript
+
+---
 
 ## 🎯 Why I Took CS50x
 
@@ -104,16 +126,23 @@ From debugging C programs to building a complete Flask application, every week c
 
 This repository represents both my coursework and the progress I made throughout the journey.
 
+---
+
 ## 👩‍💻 About Me
 
-Aqsa Bukhari
+**Aqsa Bukhari**
+
 BS Computer Science Student at KFUEIT
 
 Currently building my foundation in computer science and exploring software development and cybersecurity.
 
-## Academic Honesty
+---
+
+## ⚠️ Academic Honesty
 
 This repository is maintained for educational and portfolio purposes.
 
 If you are currently taking CS50x, please follow CS50's Academic Honesty Policy and complete the assignments independently.
+
+---
 
