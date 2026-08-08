@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Add Subject
+{% endblock %}
+
+{% block content %}
+
+<h2>Add Subject</h2>
+
+<form action="{{ url_for('add_subject') }}" method="POST">
+
+    <div class="mb-3">
+        <label class="form-label">Subject Name</label>
+
+        <input
+            class="form-control"
+            type="text"
+            name="subject_name"
+            placeholder="Enter subject name"
+            required>
+    </div>
+
+    <button type="submit" class="btn btn-add">
+        Add Subject
+    </button>
+
+</form>
+
+{% endblock %}

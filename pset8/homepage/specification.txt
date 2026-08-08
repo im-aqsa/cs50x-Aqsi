@@ -1,0 +1,29 @@
+HTML Tags Used:
+1. html
+2. head
+3. body
+4. meta
+5. link
+6. nav
+7. div
+8. h1
+9. p
+10. a
+11. ul
+12. li
+13. button
+
+CSS Properties Used:
+1. background-color
+2. font-family
+3. color
+4. font-size
+5. margin-top
+6. text-decoration
+7. margin-right
+
+Bootstrap:
+Used Bootstrap navbar, container, and button classes to improve the website's appearance and responsiveness.
+
+JavaScript:
+Used JavaScript to display a welcome message on the homepage and an alert message on the contact page when buttons are clicked.

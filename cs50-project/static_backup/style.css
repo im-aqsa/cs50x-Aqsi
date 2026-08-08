@@ -1,0 +1,21 @@
+body{
+    background:#f8f9fa;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.table{
+    background:white;
+}
+
+h2{
+    font-weight:bold;
+}

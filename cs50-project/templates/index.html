@@ -1,0 +1,46 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center mt-5">
+    <i class="bi bi-mortarboard-fill display-3 text-secondary"></i>
+
+    <h1 class="mt-3">Welcome to Campus Hub</h1>
+
+    <p class="lead text-muted">
+        Your All-in-One Student Portal
+    </p>
+
+    <p class="fs-5 mt-4 text-secondary">
+    <em>"{{ quote }}"</em>
+</p>
+    <div class="mt-4">
+
+        {% if session.get("user_id") %}
+
+        <a href="{{ url_for('dashboard') }}" class="btn btn-add btn-lg px-4">
+            
+            Go to Dashboard
+        </a>
+
+        {% else %}
+
+        <a href="{{ url_for('login') }}" class="btn btn-add btn-lg px-4">
+            <i class="bi bi-box-arrow-in-right"></i>
+            Get Started
+        </a>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+

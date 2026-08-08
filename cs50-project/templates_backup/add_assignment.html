@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Add Assignment
+{% endblock %}
+
+{% block content %}
+
+<h2>Add Assignment</h2>
+
+<form action="{{ url_for('add_assignment') }}" method="POST">
+
+<div class="mb-3">
+
+<label class="form-label">Subject</label>
+
+<select class="form-select" name="subject_id" required>
+
+<option value="">Select Subject</option>
+
+{% for subject in subjects %}
+
+<option value="{{ subject.id }}">
+{{ subject.subject_name }}
+</option>
+
+{% endfor %}
+
+</select>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">Assignment Title</label>
+
+<input
+type="text"
+class="form-control"
+name="title"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">Due Date</label>
+
+<input
+type="date"
+class="form-control"
+name="due_date"
+required>
+
+</div>
+
+<button class="btn btn-add w-100 mt-2" type="submit">
+Save Assignment
+</button>
+
+</form>
+
+{% endblock %}

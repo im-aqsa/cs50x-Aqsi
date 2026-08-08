@@ -1,0 +1,9 @@
+For the reflection questions, you can write something like:
+
+1. Audio Aura
+
+The listener's audio aura appears energetic, positive, and danceable because the average energy, valence, and danceability of the top 100 songs are relatively high.
+
+2. Why this isn't representative
+
+This method only averages three audio features and ignores factors such as how often each song was played, when it was played, the listener's changing preferences throughout the year, and other musical characteristics. A better approach would weight songs by play count and include additional attributes like tempo, acousticness, instrumentalness, liveness, and listening history over time.

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Campus Hub{% endblock %}</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="navbar-nav ms-auto">
+
+    <a class="nav-link" href="/">Home</a>
+
+    <a class="nav-link" href="/login">Login</a>
+
+    <a class="nav-link" href="/register">Register</a>
+
+    <a class="nav-link" href="/dashboard">Dashboard</a>
+
+    <a class="nav-link" href="/logout">Logout</a>
+
+    <a class="nav-link" href="/subjects">Subjects</a>
+
+    <a class="nav-link" href="/notes">Notes</a>
+
+    <a class="nav-link" href="{{ url_for('assignments') }}">
+    Assignments
+</a>
+    <a class="nav-link" href="{{ url_for('timetable') }}">
+    Timetable
+</a>
+
+   <a class="nav-link" href="{{ url_for('attendance') }}">
+    Attendance
+</a>
+
+</div>
+
+    </div>
+</nav>
+
+    <!-- Main Content -->
+    <main class="container mt-4">
+
+        {% with messages = get_flashed_messages() %}
+{% if messages %}
+
+<div class="container mt-3">
+
+    {% for message in messages %}
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+
+        {{ message }}
+
+        <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert">
+        </button>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+{% endif %}
+{% endwith %}
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
