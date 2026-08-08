@@ -1,100 +1,75 @@
-# CS50x — Harvard University
+# CS50x — Introduction to Computer Science
 
-![Language](https://img.shields.io/badge/Language-C-blue)
-![Course](https://img.shields.io/badge/Course-CS50x%202026-red)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Platform](https://img.shields.io/badge/Platform-edX-003263)
+My solutions, notes, and final project from **Harvard University's CS50x: Introduction to Computer Science**.
 
-> My solutions, notes, and projects from **Harvard University's CS50x: Introduction to Computer Science**.
+This repository documents my journey through CS50x, from programming fundamentals in C to Python, SQL, web development, Flask, and my final project.
 
 ---
 
-# 👩‍💻 About
-
-Hi! I'm **Aqsa Bukhari**, a **Bachelor of Computer Science (BSCS)** student at **KFUEIT**.
-
-This repository documents my journey through **Harvard CS50x 2026**, where I'm building a strong foundation in computer science by learning programming, algorithms, data structures, memory management, and software development.
-
-All solutions are written independently in accordance with **CS50's Academic Honesty Policy**.
-
----
-
-# 📊 Progress Tracker
+## 📊 Progress Tracker
 
 | Week | Topic | Status |
 |------|-------|--------|
-| 0 | Scratch | ✅ Done |
-| 1 | C | ✅ Done |
-| 2 | Arrays | ✅ Done |
-| 3 | Algorithms | ⬜ Upcoming |
-| 4 | Memory | ⬜ Upcoming |
-| 5 | Data Structures | ⬜ Upcoming |
-| 6 | Python | ⬜ Upcoming |
-| 7 | SQL | ⬜ Upcoming |
-| 8 | HTML, CSS & JavaScript | ⬜ Upcoming |
-| 9 | Flask | ⬜ Upcoming |
-| Final Project | Capstone | ⬜ Upcoming |
+| 0 | Scratch | ✅ Completed |
+| 1 | C | ✅ Completed |
+| 2 | Arrays | ✅ Completed |
+| 3 | Algorithms | ✅ Completed |
+| 4 | Memory | ✅ Completed |
+| 5 | Data Structures | ✅ Completed |
+| 6 | Python | ✅ Completed |
+| 7 | SQL | ✅ Completed |
+| 8 | HTML, CSS & JavaScript | ✅ Completed |
+| 9 | Flask | ✅ Completed |
+| Final Project | Campus Hub | ✅ Completed |
 
 ---
 
-# 💡 Skills Being Learned
+## 🧠 What I Learned
 
-- C Programming
-- Algorithms
-- Data Structures
-- Problem Solving
-- Memory Management
-- Debugging
-- Git & GitHub
+Throughout CS50x, I developed a stronger understanding of:
+
+- Programming fundamentals
+- Problem solving and computational thinking
+- C programming
+- Algorithms and data structures
+- Memory management
+- Python programming
+- SQL and relational databases
+- HTML, CSS, and JavaScript
+- Flask and web application development
+- Debugging and code organization
+- Git and GitHub
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Technologies
 
 - C
-- Git
-- GitHub
-- VS Code (CS50 Codespaces)
-- GCC / Clang
-- edX
+- Python
+- SQL
+- HTML
+- CSS
+- JavaScript
+- Flask
+- SQLite
+- Git & GitHub
+- VS Code
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
-cs50x/
+cs50x-Aqsi/
 ├── pset0/
 ├── pset1/
 ├── pset2/
-├── README.md
-```
-
----
-
-# 🎯 Current Goal
-
-I'm currently completing **Harvard CS50x** to strengthen my programming and problem-solving skills while building a solid foundation in computer science.
-
----
-
-# 👩‍🎓 Author
-
-**Aqsa Bukhari**  
-BS Computer Science (BSCS) Student  
-KFUEIT
-
----
-
-# ⚠️ Academic Honesty
-
-This repository is intended for **learning and portfolio purposes only**.
-
-If you're currently taking CS50, please use these solutions only as a reference after completing the assignments yourself.
-
-For more information, please refer to **CS50's Academic Honesty Policy**:
-https://cs50.harvard.edu/x/2026/honesty/
-
----
-
-⭐ If you find this repository useful, consider giving it a **star**!
+├── pset3/
+├── pset4/
+├── pset5/
+├── pset6/
+├── pset7/
+├── pset8/
+├── pset9/
+├── cs50-project/
+└── README.md
